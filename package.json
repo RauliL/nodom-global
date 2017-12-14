@@ -14,13 +14,18 @@
     "url": "https://github.com/RauliL/nodom-global/issues"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "istanbul cover _mocha",
+    "posttest": "istanbul check-coverage",
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
   },
   "peerDependencies": {
     "nodom": ">=2.1.0"
   },
   "devDependencies": {
+    "coveralls": "^3.0.0",
+    "istanbul": "^0.4.5",
     "mocha": "^4.0.1",
+    "mocha-lcov-reporter": "^1.3.0",
     "nodom": "^2.1.0",
     "should": "^13.1.3"
   }

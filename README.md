@@ -1,4 +1,11 @@
-# nodom-global
+# nodom-global [![travis][travis-image]][travis-url] [![coveralls][coveralls-image]][coveralls-url] [![npm][npm-image]][npm-url]
+
+[travis-image]: https://img.shields.io/travis/RauliL/nodom-global/master.svg
+[travis-url]: https://travis-ci.org/RauliL/nodom-global
+[coveralls-image]: https://coveralls.io/repos/github/RauliL/nodom-global/badge.svg?branch=master
+[coveralls-url]: https://coveralls.io/github/RauliL/nodom-global
+[npm-image]: https://img.shields.io/npm/v/nodom-global.svg
+[npm-url]: https://npmjs.org/package/nodom-global
 
 Similarly as [jsdom-global], **nodom-global** enables DOM in Node.js, except
 that it uses [NO:DOM] library instead of [jsdom]. It's useful for running test
