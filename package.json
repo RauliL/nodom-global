@@ -1,6 +1,6 @@
 {
   "name": "nodom-global",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enable NO:DOM in Node.js",
   "author": "Rauli Laine <rauli.laine@iki.fi>",
   "license": "MIT",
