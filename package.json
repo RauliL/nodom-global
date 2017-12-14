@@ -1,0 +1,27 @@
+{
+  "name": "nodom-global",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Rauli Laine <rauli.laine@iki.fi>",
+  "license": "MIT",
+  "main": "index.js",
+  "homepage": "https://github.com/RauliL/nodom-global#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RauliL/nodom-global.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RauliL/nodom-global/issues"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "peerDependencies": {
+    "nodom": ">=2.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "nodom": "^2.1.0",
+    "should": "^13.1.3"
+  }
+}
